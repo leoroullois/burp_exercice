@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  burp_exercice:
+    image: leoroullois/burp_exercice:latest
+    container_name: burp_exercice
+    ports:
+      - 3000:3000
